@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		958CAB651E3023CC0072E71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CAB641E3023CC0072E71D /* AppDelegate.swift */; };
+		958CAB671E3023CC0072E71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CAB661E3023CC0072E71D /* ViewController.swift */; };
+		958CAB6A1E3023CC0072E71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958CAB681E3023CC0072E71D /* Main.storyboard */; };
+		958CAB6C1E3023CC0072E71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958CAB6B1E3023CC0072E71D /* Assets.xcassets */; };
+		958CAB6F1E3023CC0072E71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958CAB6D1E3023CC0072E71D /* LaunchScreen.storyboard */; };
+		958CAB7A1E3023CC0072E71D /* CPH_HSTLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CAB791E3023CC0072E71D /* CPH_HSTLTests.swift */; };
+		958CAB851E3023CC0072E71D /* CPH_HSTLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CAB841E3023CC0072E71D /* CPH_HSTLUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		958CAB761E3023CC0072E71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958CAB561E301D790072E71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958CAB601E3023CC0072E71D;
+			remoteInfo = "CPH HSTL";
+		};
+		958CAB811E3023CC0072E71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958CAB561E301D790072E71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958CAB601E3023CC0072E71D;
+			remoteInfo = "CPH HSTL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		958CAB5C1E301E910072E71D /* cordova */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cordova; path = ..; sourceTree = "<group>"; };
+		958CAB611E3023CC0072E71D /* CPH HSTL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPH HSTL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958CAB641E3023CC0072E71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		958CAB661E3023CC0072E71D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		958CAB691E3023CC0072E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958CAB6B1E3023CC0072E71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		958CAB6E1E3023CC0072E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		958CAB701E3023CC0072E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958CAB751E3023CC0072E71D /* CPH HSTLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPH HSTLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958CAB791E3023CC0072E71D /* CPH_HSTLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPH_HSTLTests.swift; sourceTree = "<group>"; };
+		958CAB7B1E3023CC0072E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958CAB801E3023CC0072E71D /* CPH HSTLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPH HSTLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958CAB841E3023CC0072E71D /* CPH_HSTLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPH_HSTLUITests.swift; sourceTree = "<group>"; };
+		958CAB861E3023CC0072E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958CAB5E1E3023CC0072E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CAB721E3023CC0072E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CAB7D1E3023CC0072E71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958CAB551E301D790072E71D = {
+			isa = PBXGroup;
+			children = (
+				958CAB5C1E301E910072E71D /* cordova */,
+				958CAB631E3023CC0072E71D /* CPH HSTL */,
+				958CAB781E3023CC0072E71D /* CPH HSTLTests */,
+				958CAB831E3023CC0072E71D /* CPH HSTLUITests */,
+				958CAB621E3023CC0072E71D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		958CAB621E3023CC0072E71D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958CAB611E3023CC0072E71D /* CPH HSTL.app */,
+				958CAB751E3023CC0072E71D /* CPH HSTLTests.xctest */,
+				958CAB801E3023CC0072E71D /* CPH HSTLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958CAB631E3023CC0072E71D /* CPH HSTL */ = {
+			isa = PBXGroup;
+			children = (
+				958CAB641E3023CC0072E71D /* AppDelegate.swift */,
+				958CAB661E3023CC0072E71D /* ViewController.swift */,
+				958CAB681E3023CC0072E71D /* Main.storyboard */,
+				958CAB6B1E3023CC0072E71D /* Assets.xcassets */,
+				958CAB6D1E3023CC0072E71D /* LaunchScreen.storyboard */,
+				958CAB701E3023CC0072E71D /* Info.plist */,
+			);
+			path = "CPH HSTL";
+			sourceTree = "<group>";
+		};
+		958CAB781E3023CC0072E71D /* CPH HSTLTests */ = {
+			isa = PBXGroup;
+			children = (
+				958CAB791E3023CC0072E71D /* CPH_HSTLTests.swift */,
+				958CAB7B1E3023CC0072E71D /* Info.plist */,
+			);
+			path = "CPH HSTLTests";
+			sourceTree = "<group>";
+		};
+		958CAB831E3023CC0072E71D /* CPH HSTLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				958CAB841E3023CC0072E71D /* CPH_HSTLUITests.swift */,
+				958CAB861E3023CC0072E71D /* Info.plist */,
+			);
+			path = "CPH HSTLUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958CAB601E3023CC0072E71D /* CPH HSTL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958CAB871E3023CC0072E71D /* Build configuration list for PBXNativeTarget "CPH HSTL" */;
+			buildPhases = (
+				958CAB5D1E3023CC0072E71D /* Sources */,
+				958CAB5E1E3023CC0072E71D /* Frameworks */,
+				958CAB5F1E3023CC0072E71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPH HSTL";
+			productName = "CPH HSTL";
+			productReference = 958CAB611E3023CC0072E71D /* CPH HSTL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		958CAB741E3023CC0072E71D /* CPH HSTLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958CAB8A1E3023CC0072E71D /* Build configuration list for PBXNativeTarget "CPH HSTLTests" */;
+			buildPhases = (
+				958CAB711E3023CC0072E71D /* Sources */,
+				958CAB721E3023CC0072E71D /* Frameworks */,
+				958CAB731E3023CC0072E71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958CAB771E3023CC0072E71D /* PBXTargetDependency */,
+			);
+			name = "CPH HSTLTests";
+			productName = "CPH HSTLTests";
+			productReference = 958CAB751E3023CC0072E71D /* CPH HSTLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		958CAB7F1E3023CC0072E71D /* CPH HSTLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958CAB8D1E3023CC0072E71D /* Build configuration list for PBXNativeTarget "CPH HSTLUITests" */;
+			buildPhases = (
+				958CAB7C1E3023CC0072E71D /* Sources */,
+				958CAB7D1E3023CC0072E71D /* Frameworks */,
+				958CAB7E1E3023CC0072E71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958CAB821E3023CC0072E71D /* PBXTargetDependency */,
+			);
+			name = "CPH HSTLUITests";
+			productName = "CPH HSTLUITests";
+			productReference = 958CAB801E3023CC0072E71D /* CPH HSTLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		958CAB561E301D790072E71D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					958CAB601E3023CC0072E71D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TU4M62B469;
+						ProvisioningStyle = Automatic;
+					};
+					958CAB741E3023CC0072E71D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TU4M62B469;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 958CAB601E3023CC0072E71D;
+					};
+					958CAB7F1E3023CC0072E71D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TU4M62B469;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 958CAB601E3023CC0072E71D;
+					};
+				};
+			};
+			buildConfigurationList = 958CAB591E301D790072E71D /* Build configuration list for PBXProject "CPH HSTL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 958CAB551E301D790072E71D;
+			productRefGroup = 958CAB621E3023CC0072E71D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958CAB601E3023CC0072E71D /* CPH HSTL */,
+				958CAB741E3023CC0072E71D /* CPH HSTLTests */,
+				958CAB7F1E3023CC0072E71D /* CPH HSTLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958CAB5F1E3023CC0072E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CAB6F1E3023CC0072E71D /* LaunchScreen.storyboard in Resources */,
+				958CAB6C1E3023CC0072E71D /* Assets.xcassets in Resources */,
+				958CAB6A1E3023CC0072E71D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CAB731E3023CC0072E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CAB7E1E3023CC0072E71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958CAB5D1E3023CC0072E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CAB671E3023CC0072E71D /* ViewController.swift in Sources */,
+				958CAB651E3023CC0072E71D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CAB711E3023CC0072E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CAB7A1E3023CC0072E71D /* CPH_HSTLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CAB7C1E3023CC0072E71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CAB851E3023CC0072E71D /* CPH_HSTLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		958CAB771E3023CC0072E71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958CAB601E3023CC0072E71D /* CPH HSTL */;
+			targetProxy = 958CAB761E3023CC0072E71D /* PBXContainerItemProxy */;
+		};
+		958CAB821E3023CC0072E71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958CAB601E3023CC0072E71D /* CPH HSTL */;
+			targetProxy = 958CAB811E3023CC0072E71D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		958CAB681E3023CC0072E71D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958CAB691E3023CC0072E71D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		958CAB6D1E3023CC0072E71D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958CAB6E1E3023CC0072E71D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		958CAB5A1E301D790072E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		958CAB5B1E301D790072E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		958CAB881E3023CC0072E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TU4M62B469;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CPH HSTL/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPH-HSTL.CPH-HSTL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		958CAB891E3023CC0072E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TU4M62B469;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CPH HSTL/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPH-HSTL.CPH-HSTL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958CAB8B1E3023CC0072E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TU4M62B469;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CPH HSTLTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPH-HSTL.CPH-HSTLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPH HSTL.app/CPH HSTL";
+			};
+			name = Debug;
+		};
+		958CAB8C1E3023CC0072E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TU4M62B469;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CPH HSTLTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPH-HSTL.CPH-HSTLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPH HSTL.app/CPH HSTL";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958CAB8E1E3023CC0072E71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TU4M62B469;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CPH HSTLUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPH-HSTL.CPH-HSTLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CPH HSTL";
+			};
+			name = Debug;
+		};
+		958CAB8F1E3023CC0072E71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TU4M62B469;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CPH HSTLUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "CPH-HSTL.CPH-HSTLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CPH HSTL";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958CAB591E301D790072E71D /* Build configuration list for PBXProject "CPH HSTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CAB5A1E301D790072E71D /* Debug */,
+				958CAB5B1E301D790072E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958CAB871E3023CC0072E71D /* Build configuration list for PBXNativeTarget "CPH HSTL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CAB881E3023CC0072E71D /* Debug */,
+				958CAB891E3023CC0072E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		958CAB8A1E3023CC0072E71D /* Build configuration list for PBXNativeTarget "CPH HSTLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CAB8B1E3023CC0072E71D /* Debug */,
+				958CAB8C1E3023CC0072E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		958CAB8D1E3023CC0072E71D /* Build configuration list for PBXNativeTarget "CPH HSTLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CAB8E1E3023CC0072E71D /* Debug */,
+				958CAB8F1E3023CC0072E71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 958CAB561E301D790072E71D /* Project object */;
+}

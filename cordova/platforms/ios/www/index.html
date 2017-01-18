@@ -7,22 +7,35 @@
 
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+
+<script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "AIzaSyCySWonXbQ5WNVRbcJIG_zJstYMSInRfrs",
+    authDomain: "cphstartups-3d041.firebaseapp.com",
+    databaseURL: "https://cphstartups-3d041.firebaseio.com",
+    storageBucket: "<BUCKET>.appspot.com",
+    messagingSenderId: "<SENDER_ID>",
+  };
+  firebase.initializeApp(config);
+</script>
 <script src="main.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<title>Cph Startups App</title>
+	<title>Cph HSTL</title>
 </head>
 <body>
+<div data-role="page" id="main">
 <header data-role="header">
 	<h1>Cph Startup People</h1>
 </header>
 
 
-<div class="ui-grid-e">
-    <img src="ric_thumb.jpg">
-    <img src="ric_thumb.jpg">
-    <img src="ric_thumb.jpg">
-    <img src="ric_thumb.jpg">
-</div><!-- /grid-b -->
+<div id="listImages" >
+
+</div>
+
 <footer data-role="footer" data-position="fixed">
 	<nav data-role="navbar">
 		<ul>
@@ -30,5 +43,30 @@
 		</ul>
 	</nav>
 </footer>
+</div><!--page-->
+<div data-role="page" id="profile">
+<header data-role="header">
+	<h1>Cph Startup People</h1>
+	<a href="#main">Main</a>
+</header>
+
+
+<div id="padder">
+ <a href=""><img id="profile_image" src="" alt="" class="bigimg"></a>
+	<h2><a id="twitter_url" href="" alt=""></a></h2>
+	<h2><span id="name" style="font-weight:normal"></span></h2>
+	<h4 id="description"></h4>
+	
+	
+	</div>
+
+<footer data-role="footer" data-position="fixed">
+	<nav data-role="navbar">
+		<ul>
+			<li><a href="#main" data-icon="home"></a></li>
+		</ul>
+	</nav>
+</footer>
+</div><!--page-->
 </body>
 </html>
