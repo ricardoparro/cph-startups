@@ -1,0 +1,26 @@
+
+element.style {
+    background-position: -736px -928px;
+}
+
+img:hover, span.thumbnail:hover {
+    outline-style: solid;
+    outline-width: 1px;
+    opacity: .8;
+}
+img:hover, span.thumbnail:hover {
+    outline-color: #333;
+}
+
+span.thumbnail {
+    background: url(ric_thumb.jpg);
+    background-size: cover;
+}
+
+img, span.thumbnail {
+    width: 74px;
+    height: auto;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+}
