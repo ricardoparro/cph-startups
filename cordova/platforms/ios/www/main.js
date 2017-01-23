@@ -2,7 +2,7 @@
 var Users = {};
 
 $(document).ready(function(){
-console.log("entered doc ready");
+
 	var database = firebase.database();
 
 	database.ref('/twitter_users/').once('value').then(function(snapshot) {
@@ -29,15 +29,10 @@ console.log("entered doc ready");
         	
         	window.location.href = "#profile";
 
-
-    
-    //    	return false;  
     	});
 		});
 
 	});
-
-	
 });
 
 
