@@ -26,6 +26,21 @@ img, span.thumbnail {
 }
 
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) { 
+    /* iPhone 5 Portrait */
+    .imageGrid {
+        margin-left:4%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) { 
+    /* iPhone 5 Landscape */
+    .imageGrid {
+        margin-left:4.5%;
+    }
+}
+
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
     /* iPhone 6 Portrait */ 
     .imageGrid {

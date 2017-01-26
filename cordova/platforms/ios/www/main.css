@@ -24,3 +24,56 @@ img, span.thumbnail {
     border-width: 1px;
     border-style: solid;
 }
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) { 
+    /* iPhone 5 Portrait */
+    .imageGrid {
+        margin-left:4%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) { 
+    /* iPhone 5 Landscape */
+    .imageGrid {
+        margin-left:4.5%;
+    }
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+    /* iPhone 6 Portrait */ 
+    .imageGrid {
+        margin-left:0.5%;
+    }
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
+    /* iPhone 6 landscape */
+}
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { 
+    /* iPhone 6+ Portrait */
+    .imageGrid {
+        margin-left:5%;
+    }
+}
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { 
+    /* iPhone 6+ landscape */
+}
+
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){ 
+    /* iPhone 6 and iPhone 6+ portrait and landscape */
+}
+
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : portrait){ 
+    /* iPhone 6 and iPhone 6+ portrait */
+}
+
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : landscape){ 
+    /* iPhone 6 and iPhone 6+ landscape */
+}
