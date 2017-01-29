@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		USnwx4SLOtapCeTlVzDY4r2rDJA=
+		vQtcJ9jcPJlxmBp0o0hxB/c5JKQ=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		3RQqkHGQ1tLSth8H0LulF0OHTWE=
+		h8bPyGiff7xd6tvmU8uJBJ2vs8E=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LNAfYcp9thdaNC8MD9kHs5R8/ik=
+		H7xBp/pwUCADaMSifi8wumfGsvc=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		pw4E6w6X1gEeIj84nFiAy4gM7NY=
+		OdclKeXLCj9bIfk33YuWsmFgIOI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		MnrN4pn+5R3wICKUFHmpzJT6nlg=
+		L4NluO/z66XsyYYaU51/Ol6Z4nE=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		4K6T6l1SXNgR0/k/0XtuW+/4BUY=
+		nVJVLYvxQwN8KS9XTif7yQ/zK2g=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -194,15 +194,15 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		Flk3PqOpYx6rHScxjjUDOYETB2s=
+		xeyYPFXc/11+KVEcQ3UDY58117A=
 		</data>
 		<key>www/main.css</key>
 		<data>
-		Bvs5GxgQT/AsINL4w3gMdqeHHTQ=
+		LeoMggti3lGoMNUN8ShsMMOIvDc=
 		</data>
 		<key>www/main.js</key>
 		<data>
-		YK1yhwxnuY6ewUxUHNPbE/sTxMQ=
+		unB+1QWPGrD5Xc1Eb/6E85lcH9M=
 		</data>
 		<key>www/ric_thumb.jpg</key>
 		<data>
@@ -435,11 +435,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			USnwx4SLOtapCeTlVzDY4r2rDJA=
+			vQtcJ9jcPJlxmBp0o0hxB/c5JKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			1kXOpJKPeroe21WzZL7kcAZidUof1KfdhhiIfzKGXjU=
+			/EfkNbMczMWejrnXGTeVhHF1V9dhvLAWEtUp0v6LSPA=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -457,11 +457,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3RQqkHGQ1tLSth8H0LulF0OHTWE=
+			h8bPyGiff7xd6tvmU8uJBJ2vs8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			EiDtjlMRZfkkWA55s0mHa2fQjifTvBoSoDgjt13fxDw=
+			uyDs+UTu5LjjCSVke+Yeq5m+VzS0ov16HlKa+2FJ7HU=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -622,11 +622,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pw4E6w6X1gEeIj84nFiAy4gM7NY=
+			OdclKeXLCj9bIfk33YuWsmFgIOI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gSpHbLvFYGBOwGE4dGrKQGPxPGqOYfq0zshbtrTgFHI=
+			58Gsjw5TpUQZY642e2w3lXCuA0p/VPkONlsgdOliP4s=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -644,22 +644,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MnrN4pn+5R3wICKUFHmpzJT6nlg=
+			L4NluO/z66XsyYYaU51/Ol6Z4nE=
 			</data>
 			<key>hash2</key>
 			<data>
-			iSOqqGBx71h1DaCIM1fFc6gioNdkJ+1RnkjmlUxiGfE=
+			9HkB0pAWIASt+BZvKludK2QXwOf5y4rQHf8ISbzKEVI=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4K6T6l1SXNgR0/k/0XtuW+/4BUY=
+			nVJVLYvxQwN8KS9XTif7yQ/zK2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			UjK6IkNIfBQhj9RKlTAus318kc9S3y6gkcLoPAXXNb0=
+			MNy7TjnwDFjxiDHBuIqsM7MQsfmkfmyNYoxhnkWqtik=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -710,33 +710,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Flk3PqOpYx6rHScxjjUDOYETB2s=
+			xeyYPFXc/11+KVEcQ3UDY58117A=
 			</data>
 			<key>hash2</key>
 			<data>
-			/5g+lSGc1+8M6pr8V76x2rrOGiN0hbpqlp8QFEWniP0=
+			zsv3rpiiqXxpZE6cA+pSs5BUxthMPEpEjueBPnCSQ/o=
 			</data>
 		</dict>
 		<key>www/main.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Bvs5GxgQT/AsINL4w3gMdqeHHTQ=
+			LeoMggti3lGoMNUN8ShsMMOIvDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pe91cJwT6YjhpRSDKxsCmJ45qz0MBJtBHoV14VKIv+0=
+			JSJn0t7SVLzLy7Um+l8iD7fKSxsNfX3VElRbE0yqZTM=
 			</data>
 		</dict>
 		<key>www/main.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YK1yhwxnuY6ewUxUHNPbE/sTxMQ=
+			unB+1QWPGrD5Xc1Eb/6E85lcH9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			DHbG6tgE/3dvbbEM/ym86hXmwfAL72rmX79g9Nxzy3I=
+			/oGk3NLQq+m6xeRBjl4E4sY/zkbJZrOHtBPTykr5VIs=
 			</data>
 		</dict>
 		<key>www/ric_thumb.jpg</key>

@@ -1,8 +1,26 @@
 
 var Users = {};
 
+
 $(document).ready(function(){
-console.log("entered doc ready");
+
+//loading
+	var $this = $( this ),
+	    theme = $this.jqmData( "theme" ) || $.mobile.loader.prototype.options.theme,
+	    msgText = $this.jqmData( "msgtext" ) || $.mobile.loader.prototype.options.text,
+	    textVisible = $this.jqmData( "textvisible" ) || $.mobile.loader.prototype.options.textVisible,
+	    textonly = !!$this.jqmData( "textonly" );
+	    html = $this.jqmData( "html" ) || "";
+	$.mobile.loading( "show", {
+	        text: msgText,
+	        textVisible: textVisible,
+	        theme: theme,
+	        textonly: textonly,
+	        html: html
+	});
+
+
+
 	var database = firebase.database();
 
 	database.ref('/twitter_users/').once('value').then(function(snapshot) {
@@ -29,16 +47,13 @@ console.log("entered doc ready");
         	
         	window.location.href = "#profile";
 
-
-    
-    //    	return false;  
     	});
 		});
-
+	//hide loading  
+	$.mobile.loading( "hide" );
 	});
-
-	
 });
+
 
 
 

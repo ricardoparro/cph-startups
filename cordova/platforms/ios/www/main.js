@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 	  	console.log(user);
 
-	  	$('#listImages').append('<a id="profile_'+ index +'" href="#profile"><img src="' + user.profile_image_url+'"></a>');
+	  	$('#listImages').append('<div class="mdl-cell mdl-cell--1-col"><a id="profile_'+ index +'" href="#profile"><img src="' + user.profile_image_url+'"></a></div>');
 	
 	  	$("#profile_"+ index ).click(function(e) {
 	  		
