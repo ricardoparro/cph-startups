@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		vQtcJ9jcPJlxmBp0o0hxB/c5JKQ=
+		2cREwvdTG7kz+05r+PRzqNg4D30=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		h8bPyGiff7xd6tvmU8uJBJ2vs8E=
+		nWy06qx/GmDscXIqVr9ID3hczNE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		OdclKeXLCj9bIfk33YuWsmFgIOI=
+		93I+YW9Q6a5PEOAG6IWe/cuei1I=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		nVJVLYvxQwN8KS9XTif7yQ/zK2g=
+		MTMdDRZEJExB2Dv72K6Pmm/aluQ=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -194,15 +194,15 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		xeyYPFXc/11+KVEcQ3UDY58117A=
+		9ws6YKtuDxeWsIKwrp6tz4bPo10=
 		</data>
 		<key>www/main.css</key>
 		<data>
-		LeoMggti3lGoMNUN8ShsMMOIvDc=
+		iINn7YV43MPxOObsoHzCCH50NIk=
 		</data>
 		<key>www/main.js</key>
 		<data>
-		unB+1QWPGrD5Xc1Eb/6E85lcH9M=
+		2NPoheJ2VDI3NwT/dQuQlA5CEu4=
 		</data>
 		<key>www/ric_thumb.jpg</key>
 		<data>
@@ -435,11 +435,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vQtcJ9jcPJlxmBp0o0hxB/c5JKQ=
+			2cREwvdTG7kz+05r+PRzqNg4D30=
 			</data>
 			<key>hash2</key>
 			<data>
-			/EfkNbMczMWejrnXGTeVhHF1V9dhvLAWEtUp0v6LSPA=
+			qDhqDjHIEvIhdamBmaA77GuCOtYsO7k1o5aOKWicoVU=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -457,11 +457,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h8bPyGiff7xd6tvmU8uJBJ2vs8E=
+			nWy06qx/GmDscXIqVr9ID3hczNE=
 			</data>
 			<key>hash2</key>
 			<data>
-			uyDs+UTu5LjjCSVke+Yeq5m+VzS0ov16HlKa+2FJ7HU=
+			Y1ptRwCYxXgS4aNxW5GwXHbaxZk7V/r+POZn4W8Zp6U=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -622,11 +622,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OdclKeXLCj9bIfk33YuWsmFgIOI=
+			93I+YW9Q6a5PEOAG6IWe/cuei1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			58Gsjw5TpUQZY642e2w3lXCuA0p/VPkONlsgdOliP4s=
+			F8VgV0lEh9Py2cJvgf0YdMJvBIvjpwdEQ86D/8sYAi4=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -655,11 +655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nVJVLYvxQwN8KS9XTif7yQ/zK2g=
+			MTMdDRZEJExB2Dv72K6Pmm/aluQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			MNy7TjnwDFjxiDHBuIqsM7MQsfmkfmyNYoxhnkWqtik=
+			nufjKGPsbCZZu35kKEWbTMb2tvBu04BtMUfTA1YoAJM=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -710,33 +710,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xeyYPFXc/11+KVEcQ3UDY58117A=
+			9ws6YKtuDxeWsIKwrp6tz4bPo10=
 			</data>
 			<key>hash2</key>
 			<data>
-			zsv3rpiiqXxpZE6cA+pSs5BUxthMPEpEjueBPnCSQ/o=
+			1yNxOo7E5JrPx/HGKuOYur/FfHFq5gq3TufMsVPsCCk=
 			</data>
 		</dict>
 		<key>www/main.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LeoMggti3lGoMNUN8ShsMMOIvDc=
+			iINn7YV43MPxOObsoHzCCH50NIk=
 			</data>
 			<key>hash2</key>
 			<data>
-			JSJn0t7SVLzLy7Um+l8iD7fKSxsNfX3VElRbE0yqZTM=
+			hFLoJmGaV/O3qeqfo9/21/XfQfsthE5wRTsl+6X1Wb8=
 			</data>
 		</dict>
 		<key>www/main.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			unB+1QWPGrD5Xc1Eb/6E85lcH9M=
+			2NPoheJ2VDI3NwT/dQuQlA5CEu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/oGk3NLQq+m6xeRBjl4E4sY/zkbJZrOHtBPTykr5VIs=
+			Ce+gr9j8VnMFapq5w9bFuFxaFQwLEd/i3Kn1qcV6VjY=
 			</data>
 		</dict>
 		<key>www/ric_thumb.jpg</key>

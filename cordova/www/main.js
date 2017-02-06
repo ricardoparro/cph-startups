@@ -4,6 +4,8 @@ var Users = {};
 
 $(document).ready(function(){
 
+
+
 //loading
 	var $this = $( this ),
 	    theme = $this.jqmData( "theme" ) || $.mobile.loader.prototype.options.theme,
@@ -18,7 +20,6 @@ $(document).ready(function(){
 	        textonly: textonly,
 	        html: html
 	});
-
 
 
 	var database = firebase.database();

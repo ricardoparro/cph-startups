@@ -10,7 +10,7 @@
 	<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-amber.min.css" />
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css" />
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
@@ -32,9 +32,61 @@
 	<title>Cph HSTL</title>
 </head>
 <body>
-
+<div data-role="page" id="menu">
 <!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" data-role="page" id="main">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" style="position: inherit;">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">CPH Startups</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+
+	<div class="demo-card-square mdl-card mdl-shadow--2dp">
+	  <div class="mdl-card__title mdl-card--expand">
+	    <h2 class="mdl-card__title-text">CPH Startups</h2>
+	  </div>
+	  <div class="mdl-card__supporting-text">
+	    Curated cph startups
+	  </div>
+	  <div class="mdl-card__actions mdl-card--border">
+
+	    <a  data-role="button" class="mdl-button mdl-button--colored " href="#main" >
+	      View
+	    </a>
+
+	  </div>
+	</div>
+	<div class="demo-card-square mdl-card mdl-shadow--2dp">
+	  <div class="mdl-card__title mdl-card--expand">
+	    <h2 class="mdl-card__title-text">CPH Startup People</h2>
+	  </div>
+	  <div class="mdl-card__supporting-text">
+	    Curated cph startups people
+	  </div>
+	  <div class="mdl-card__actions mdl-card--border">
+
+	    <a  data-role="button" class="mdl-button mdl-button--colored " href="#main" >
+	      View
+	    </a>
+
+	  </div>
+	</div>
+
+</div></div><!--page-->
+
+<div data-role="page" id="main">
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" >
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
@@ -66,6 +118,7 @@
     </div>
   </main>
 </div>
+</div><!--page-->
 
 
 
@@ -89,6 +142,8 @@
 	</nav>
 </footer>
 </div><!--page-->
+
+
 
 </body>
 </html>
